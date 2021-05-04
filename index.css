@@ -1,0 +1,101 @@
+/* This is where you can play around with the styling
+
+Here's a great resource https://css-tricks.com/almanac/
+
+Here's a great resource for shadowing:
+http://www.cssmatic.com/box-shadow
+*/
+
+/* The items in front of the brackets access the html elements in the panel to the left */
+html {
+    font-size: 12px;
+}
+  
+ul {
+    list-style-type: none;
+}
+  
+span {
+    font-weight: bold;
+}
+  
+.card {
+    background: linear-gradient(to bottom right, #330066, #5c00e6, #0000cc, #330066);
+    /*border-radius: 5px;*/
+    box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.36);
+    border: solid black 1px;
+    padding: 1.5%;
+    width: 8.5in;
+	height: 11in;
+}
+  
+.decorative {
+	/*  I just learned about color gradients. That's how I got the background to go from red to yellow. Here's one place to find color gradients:
+    https://www.w3schools.com/css/css3_gradients.asp*/
+    background: linear-gradient(to bottom right, red, yellow);
+    border-radius: 4px;
+    border: 1px black;
+    box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.36);
+    padding: 5px;
+	height: 100%;
+}
+  
+.top {}
+  
+.species {
+    border: solid black 2px;
+    border-radius: 4px;
+    background-color: rgba(77, 51, 25, 0.3);
+    /*   box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.36); */
+    color: white;
+    display: inline-block;
+    padding: 11px;
+    box-sizing: border-box;
+    margin-left: 83px;
+}
+  
+.top img {
+    height: 300px;
+    width: 300px;
+    border-radius: 4px;
+    box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.17);
+    border: solid black 2px;
+    margin: 5px;
+}
+  
+.bottom {
+    border: solid black 2px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.17);
+    padding: 2px;
+    margin: 7px;
+    color: white;
+    background-color: rgba(77, 51, 25, 0.69);
+}
+  
+.interesting_fact {
+    font-style: italic;
+}
+  
+.description {}
+  
+.info {}
+  
+h3.species {
+    color: white;
+    font-size: 20px;
+    margin: 11px 0 0 78px;
+    padding-top: 2px;
+    text-align: center;
+    /* width: 151px; */
+    height: 26px;
+    font-family: "papyrus";
+}
+  
+.species h3 {
+    font-size: 25px;
+    font-family: "Papyrus";
+    /* text-align: center; */
+    display: inline-block;
+    margin: 0 auto;
+}
