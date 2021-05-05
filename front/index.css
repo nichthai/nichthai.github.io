@@ -1,0 +1,66 @@
+html {
+    font-size: 28.8px;
+	margin: 0;
+	padding: 0;
+}
+
+.card {
+    background: linear-gradient(to bottom right, #330066, #5c00e6, #0000cc, #330066);
+    box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.36);
+    border: solid black 1px;
+    padding: 0.25in;
+    width: 8.5in;
+	height: 11in;
+	border-radius: 25px;
+}
+  
+.decorative {
+    background: linear-gradient(to bottom right, red, rgb(255, 255, 255));
+    border-radius: 8px;
+    border: 1px black;
+    box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.36);
+    padding: 15px;
+	height: 100%;
+	box-sizing: border-box;
+}
+  
+.top {
+	text-align: center;
+}
+
+.title {
+    margin-top: 30px;
+    border: solid black 2px;
+    background-color: rgba(77, 51, 25, 0.3);
+    color: white;
+    display: inline-block;
+    padding: 11px;
+    box-sizing: border-box;
+	vertical-align: top;
+}
+
+.title h3 {
+    font-size: 60px;
+}
+
+.title h3,
+.title h4 {
+    margin: 0 auto;
+    animation: title-glow-alternate ease-in 1.5s infinite alternate;
+}
+
+.rarity {
+
+}
+
+img {
+	width: 7in;
+    filter: drop-shadow(15px 15px 10px #00ffff80) drop-shadow(-15px -15px 10px #00ffff80) drop-shadow(-15px 15px 10px #00ffff80) drop-shadow(15px -15px 10px #00ffff80);
+    border-radius: 20px;
+    animation: img-glow-alternate ease-in 3.5s infinite alternate;
+}
+
+@keyframes img-glow-alternate {
+    0% { filter: drop-shadow(15px 15px 10px #00ffff00) drop-shadow(-15px -15px 10px #00ffff00) drop-shadow(-15px 15px 10px #00ffff00) drop-shadow(15px -15px 10px #00ffff00); }
+    100% { filter: drop-shadow(15px 15px 10px #00ffff80) drop-shadow(-15px -15px 10px #00ffff80) drop-shadow(-15px 15px 10px #00ffff80) drop-shadow(15px -15px 10px #00ffff80); }
+}
